@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+.btn-outline-warning{
+  color:#ff6815 ;
+  border-color: #ff6815;
+}
+#buscarInput{
+  height: 2rem;
+  margin-right: 5px;
+}
+#btnBuscar{
+  height: 2rem;
+  text-align: center;
+}
+.container{
+  justify-content: center;
+  text-align: center;
+}
+.col{
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 15em;
+}
+#descuento{
+  background-color: black
+}
+#imgProduct{
+  height:15em;
+}
+.descripcion{
+  display:flex; 
+  justify-content: space-between;
+}
+#name{
+  font-weight: 500;
+}
+#price{
+  margin-right: 1em;
+  font-weight: 400;
+}
