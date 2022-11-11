@@ -4,6 +4,8 @@ body{
   font-family: 'Poppins', sans-serif;
 
 }
+
+/**NavBAr */
 .btn-outline-warning{
   color:#ff6815 ;
   border-color: #ff6815;
@@ -16,6 +18,7 @@ body{
   height: 2rem;
   text-align: center;
 }
+
 .container{
   justify-content: center;
   text-align: center;
@@ -25,8 +28,28 @@ body{
   padding-right: 0px;
   max-width: 15em;
 }
+/*! TARJETA DESCUENTO */
+.tDescuento{
+display: flex;
+justify-content: space-between;
+text-align: start;
+position: absolute;
+width: 5em;
+height: 1.5em;
+background-color: black;
+}
+
 #descuento{
-  background-color: black
+  margin-left: 0.5rem;
+  
+  color: aliceblue;
+}
+.flechaDescuento{
+  width: 0; 
+  height: 1.5em; 
+  border-right: 20px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 14px solid transparent; 
 }
 #imgProduct{
   height:15em;
