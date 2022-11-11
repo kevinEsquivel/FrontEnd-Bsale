@@ -39,7 +39,7 @@ height: 1.5em;
 background-color: black;
 }
 
-#descuento{
+.descuento{
   margin-left: 0.5rem;
   
   color: aliceblue;
@@ -64,4 +64,10 @@ background-color: black;
 #price{
   margin-right: 1em;
   font-weight: 400;
+}
+#oldPrice{
+  margin-right: 1em;
+  font-weight: 400;
+  color: red;
+  text-decoration: line-through;
 }
