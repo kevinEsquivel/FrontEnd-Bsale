@@ -38,7 +38,8 @@ inpBuscar.oninput =(e) => {
                   `+(discount!==0?`<div class="tDescuento">
                   <span class="descuento">`+discount+`%</span>
                   <div class="flechaDescuento"></div>
-                </div>`:``)+`
+                </div>`:``)+
+                (url_image === '' ?' <span class="Nimage">No image</span>':'')+`
                   <img
                     src="`+url_image+`"
                     alt=""
@@ -96,7 +97,8 @@ document.body.onload = () => {
               `+(discount!==0?`<div class="tDescuento">
               <span class="descuento">`+discount+`%</span>
               <div class="flechaDescuento"></div>
-            </div>`:``)+`
+              </div>`:``)+
+              (url_image === '' ?' <span class="Nimage">No image</span>':'')+`
               <img
                 src="`+url_image+`"
                 alt=""
@@ -145,7 +147,8 @@ document.body.onload = () => {
               `+(discount!==0?`<div class="tDescuento">
               <span class="descuento">`+discount+`%</span>
               <div class="flechaDescuento"></div>
-            </div>`:``)+`
+            </div>`:``)+
+            (url_image === '' ?' <span class="Nimage">No image</span>':'')+`
               <img
                 src="`+url_image+`"
                 alt=""
